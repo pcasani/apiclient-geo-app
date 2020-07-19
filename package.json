@@ -1,0 +1,30 @@
+{
+  "name": "pbdts-api",
+  "version": "1.0.0",
+  "description": "API client for the bpdts API",
+  "main": "./src",
+  "scripts": {
+    "test": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pcasani/bpdts-api.git"
+  },
+  "author": "Paolo Casani",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "latest",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.4.0",
+    "eslint-plugin-import": "^2.22.0",
+    "nodemon": "^2.0.4",
+    "underscore": "^1.10.2"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
