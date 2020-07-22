@@ -6,7 +6,7 @@ const app = express();
 require('dotenv').config();
 
 const configPort = process.env.PORT;
-const UsersRouter = require('./src/users.routes');
+const UsersRouter = require('./src/routes/users.routes');
 
 UsersRouter.routesConfig(app);
 
