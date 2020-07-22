@@ -54,4 +54,5 @@ getUsersNearLocation = async (location, radius) => {
 module.exports = {
   getUsersFromCity,
   getUsersNearLocation,
+  getAllUsers,
 };
