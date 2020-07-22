@@ -1,5 +1,5 @@
 const _ = require('underscore');
-const UsersData = require('./controllers/users.controller');
+const UsersData = require('../controllers/users.controller');
 
 require('dotenv').config();
 
