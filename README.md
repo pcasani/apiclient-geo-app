@@ -1,7 +1,8 @@
 # Bpdts App
 
-- This is an exercise in building a simple API.
-The client which calls the API at https://bpdts-test-app.herokuapp.com/ and returns people who are listed as either living in London, or whose current coordinates are within 50 miles of London.
+This is an exercise in building a simple API.
+
+The client calls the API at https://bpdts-test-app.herokuapp.com/ and returns people who are listed as either living in London, or whose current coordinates are within 50 miles of London.
 
 ## Requirements
 
